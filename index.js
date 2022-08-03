@@ -15,3 +15,6 @@ const Intern = require("./lib/intern");
 
 const teamMembers = [];
 
+function init() {
+    
+}
