@@ -14,14 +14,14 @@ describe("Employee", () => {
     });
     
     it ("Can make ID to equal constructor arguement", () => {
-        const test = 1234;
+        const test = 123;
         const employee = new Employee("Jon", test);
 
         expect (employee.id).toBe(test);
     });
     it ("Can make ID to equal constructor arguement", () => {
         const test = "jon@email.com";
-        const employee = new Employee("Jon", 1234, test);
+        const employee = new Employee("Jon", 123, test);
 
         expect (employee.email).toBe(test);
     });
@@ -36,7 +36,7 @@ describe("Employee", () => {
     });
     describe("employeeId", () => {
         it("render id from employeeId", () => {
-            const test = 1234;
+            const test = 123;
             const employee = new Employee("Jon", test)
 
             expect(employee.employeeId()).toBe(test);
@@ -45,7 +45,7 @@ describe("Employee", () => {
     describe("employeeEmail", () => {
         it("render id from employeeEmail", () => {
             const test = "jon@email.com";
-            const employee = new Employee("Jon", 1234,test)
+            const employee = new Employee("Jon", 123,test)
 
             expect(employee.employeeEmail()).toBe(test);
         });
