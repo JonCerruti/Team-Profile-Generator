@@ -1,4 +1,4 @@
-const Manager = require("../lib/manager");
+ const Manager = require("../lib/manager");
 
 it("Set office number", () => {
     const test = 9876;
